@@ -1,0 +1,155 @@
+body{
+  background-color: black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  padding-left: 16vh;
+  padding-right: 16vh;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+
+
+#btnimg:hover {
+  background-color: #007243;
+  color:black;
+}
+
+#btndtl:hover {
+  background-color: #F7BA0B;
+  color:black;
+}
+
+#btnhme:hover{
+
+  background-color: #C1121C;
+  color:black;
+}
+
+#btnmke:hover{
+  background-color: #00387b;
+  color:black;
+}
+
+.centered {
+  position:absolute;
+  font-size: 3vh;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:white;
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+}
+
+.centered1 {
+  position:absolute;
+  font-size: 10vh;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color:lightgray;
+  top: 25%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+.centered12 {
+  position:absolute;
+  font-size: 6vh;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color:lightgray;
+  top: 32%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+.centered2 {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  position:absolute;
+  font-size: 4vh;
+  color:lightgray ;
+  top: 45%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+.centered3 {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  position:absolute;
+  font-size: 4vh;
+  color:lightgray ;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+.centered4 {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  position:absolute;
+  font-size: 5vh;
+  color:red;
+  top: 55%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+
+#logo{
+  margin-top: 7px;
+}
+
+#featured{
+  margin-top: -5px;
+  width: 100%;
+  height: 100vh;
+  background-image:url(https://i.pinimg.com/originals/f1/cb/0e/f1cb0e6ea717ecda79933469efbfb5f9.gif );
+  position:relative;
+}
+
+#snes{
+  margin-left: 100vh;
+  width: 50%;
+  height: auto;
+  background-image:url(https://www.pngkey.com/png/full/75-756784_nintendo-super-famicom-set-fl-super-nintendo.png);
+  position: absolute;
+  left: 50px;
+  top: 50px;;
+}
+
+.img2{
+  margin-left: 75%;
+  margin-top: 10%;
+}
+
+
+#cat{
+  width: 10vh;
+  height: auto;
+  margin-top: 90vh ;
+}
+
+#monke{
+  width: 50vh;
+  height: 50vh;
+  display: block;
+  margin: auto;
+  content:url(https://c.tenor.com/oTHn_XqkpkoAAAAi/monki-flip.gif);
+}
